@@ -1,0 +1,74 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin:5%
+}
+.flex div:nth-of-type(1){
+    flex-grow: 2;
+}
+.btn{
+    background-color: aquamarine;
+    border:1px solid aquamarine;
+    border-radius: 4px;
+    padding:12px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+main{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: #f2f6f6;
+    width: 80vw;
+    height: 80vh;
+}
+.input{
+    width:90%;
+    padding: 12px 20px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+ul{
+    background: #ff9999;
+  padding: 20px;
+  margin:5%;
+  
+}
+ul>div{
+    padding:12px 20px;
+}
+ul>div:nth-child(even){
+    background-color: #ffe5e5;
+}
+
+ul>div:nth-child(odd){
+    background-color: #f9eded;
+}
+.li-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.fa-remove{
+    color:tomato
+}
+.fa-edit{
+    color:darkturquoise
+}
+.checked{
+    text-decoration: line-through;
+    color:gray
+}
+.fa-check{
+    color:lightseagreen
+}
+#editbtn,.li-backward{
+    display: none;
+}
+.focus{
+    background-color: yellow;
+}
